@@ -1,0 +1,62 @@
+/* index.css */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+
+/* decorative circles */
+.circle {
+  position: absolute;
+  border: 2px solid #ff872b;
+  border-radius: 50%;
+}
+
+.circle.one {
+  top: 10%;
+  left: 7%;
+  width: 100px;
+  height: 100px;
+}
+
+.circle.two {
+  top: -8%;
+  right: 45%;
+  background-color: #ff872b;
+  width: 140px;
+  height: 140px;
+}
+
+.circle.three {
+  top: 20%;
+  right: 20%;
+  width: 100px;
+  height: 100px;
+}
+
+/* wavy orange shape at bottom */
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.wave svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .wave svg {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+}
