@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Background from "./components/background";
 import "./index.css";
 import LandingPage from "./pages/LandingPage";
