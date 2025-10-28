@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/LandingPage.css";
 import image from "../assets/preview-img.png";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -22,9 +23,9 @@ const LandingPage = () => {
           </span>
         </p>
 
-        <a href="/signup" className="landing-button">
+        <Link to="/signup" className="landing-button">
           Get Started →
-        </a>
+        </Link>
       </div>
     </div>
   );
