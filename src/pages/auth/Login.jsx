@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../styles/auth.css";
 
 const Login = () => {
@@ -91,7 +92,7 @@ const Login = () => {
         </button>
 
         <p className="redirect">
-          Don’t have an account? <a href="/signup">Sign up</a>
+          Don’t have an account? <Link className="a" to="/signup">Sign up</Link>
         </p>
       </form>
     </div>

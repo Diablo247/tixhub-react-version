@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../styles/auth.css";
 
 const Signup = () => {
@@ -129,7 +130,7 @@ const Signup = () => {
         {successMessage && <p className="success-msg">{successMessage}</p>}
 
         <p className="redirect">
-          Already have an account? <a href="/login">Log in</a>
+          Already have an account? <Link  className="a" to="/login">Log in</Link>
         </p>
       </form>
     </div>
