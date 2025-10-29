@@ -1,16 +1,46 @@
-# React + Vite
+# TixHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TixHub is a modern ticket management platform built to simplify how teams handle issues and support requests. With a clean, intuitive interface, it allows users to create, track, and resolve tickets efficiently—all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Create, edit, and delete tickets  
+- Set ticket priority and status  
+- Filter and search tickets  
+- Responsive and user-friendly interface  
+- Login/logout with session management  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:**react + vite(react router dom)
+- **Storage:** LocalStorage (for tickets & session)  
+- **Version Control:** Git & GitHub  
+
+it also has other versions built with vue and twig  at   https://tixhub-vue-version.vercel.app/    and  https://tixhub-react-version-acma.vercel.app/ 
+---
+
+
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Diablo247/tixhub-react-version.git
+Open the project in your local server (e.g., XAMPP, WAMP, or Symfony server)
+
+Navigate to the project in your browser: http://localhost:8000
+
+Usage
+Visit /login to log in
+
+Navigate to /tickets to view and manage tickets
+
+Use /about to learn more about TixHub
+
+Contributing
+Feel free to fork the repository and submit pull requests. Make sure to follow coding standards and best practices.
+
