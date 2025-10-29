@@ -20,7 +20,7 @@ TixHub is a modern ticket management platform built to simplify how teams handle
 - **Storage:** LocalStorage (for tickets & session)  
 - **Version Control:** Git & GitHub  
 
-it also has other versions built with vue and twig  at   https://tixhub-vue-version.vercel.app/    and  https://tixhub-react-version-acma.vercel.app/ 
+it also has other versions built with vue and twig  at   https://tixhub-vue-version.vercel.app/  and  https://tixhub-twig-version.onrender.com/
 ---
 
 
